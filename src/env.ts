@@ -28,11 +28,11 @@ export const env = createEnv({
         ),
         NEXT_PUBLIC_SPARK_BYTEBIN_URL: z.preprocess(
             stringOrUndefined,
-            z.string().url().default('https://spark-usercontent.lucko.me')
+            z.string().url().default('https://bytebin.spark.spcraft.cn')
         ),
         NEXT_PUBLIC_SPARK_BYTESOCKS_URL: z.preprocess(
             stringOrUndefined,
-            z.string().url().default('wss://spark-usersockets.lucko.me')
+            z.string().url().default('wss://bytesocks.spark.spcraft.cn')
         ),
         NEXT_PUBLIC_SPARK_MAPPINGS_URL: z.preprocess(
             stringOrUndefined,
